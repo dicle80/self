@@ -4,7 +4,7 @@
   "name": "种子楼",
   "proxy": true,
   "url": "https://www.zhongzilou.com",
-  "icon": "https://www.zhongzilou.com/favicon.ico",
+  ≈"https://www.zhongzilou.com/favicon.ico",
   "paths": {
     "preset": "/list/{k}/{p}",
     "size": "/list_length/{k}/{p}",
@@ -40,6 +40,27 @@
     }
   },
   {
+    "id": "idope",
+    "name": "idope",
+    "proxy": true,
+    "url": "https://idope.se",
+    "paths": {
+      "preset": "/torrent-list/{k}/?p={p}",
+      "size": "/torrent-list/{k}/?p={p}&o=-2"
+    },
+    "xpath": {
+      "group": "//div[@class=\"resultdiv\"]",
+      "magnet": "./div[1]/a/@href",
+      "name": "./div[1]/a",
+      "size": "./div[2]/div[3]/div[2]",
+      "date": "./div[2]/div[2]/div[2]",
+      "detail": {
+        "files": "//div[@class=\"resultdivtopname\"]"
+      }
+    }
+  },
+
+{
     "id": "idope",
     "name": "idope",
     "proxy": true,
