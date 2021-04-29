@@ -40,8 +40,8 @@
     }
   },
   {
-    "id": "idope2",
-    "name": "idope",
+    "id": "idope",
+    "name": "idope2",
     "proxy": true,
     "url": "https://idope.se",
     "paths": {
