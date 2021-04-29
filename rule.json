@@ -9,7 +9,7 @@
   "paths": {
     "preset": "/list/{k}/{p}",
     "size": "/list_length/{k}/{p}",
-    "hot": "/info-{p}e79cb9ddd588b432e05aebe55296cd430efd1"
+    "hot": "/info-{p}{k}"
   },
   "xpath": {
     "group": "//div[@class='inerTop']",
