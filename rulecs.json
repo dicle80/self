@@ -49,7 +49,7 @@
       "size": "/torrent-list/{k}/?p={p}&o=-2"
     },
     "xpath": {
-      "group": "//div[@class=\"resultdiv\"]",
+      "group": "//div[@class=\"div2child\"]",
       "magnet": "./div[1]/a/@href",
       "name": "./div[1]/a",
       "size": "./div[2]/div[3]/div[2]",
@@ -58,23 +58,5 @@
         "files": "//div[@class=\"filetag\"]"
       }
     }
-  },
-  {
-  "id": "idope2",
-  "name": " idope torrent search2",
-  "url": "https://idope.se",
-  "icon": "https://idope.se/favicon.ico",
-  "paths": {
-    "preset": "/torrent-list/{k}/",
-    "hot": "/torrent/{k}/{p}"
-  },
-  "xpath": {
-    "group": "//div[@id='div2child']",
-    "magnet": "./div[3]/div[1]/a[1]/@href",
-    "name": "./div[3]/div[1]/a[1]",
-    "size": "./div[10]/div[2]/div[3]/div[2]",
-    "date": "./div[8]/div[2]/div[7]",
-    "hot": "./div[10]/div[2]/div[5]/div[2]"
-  }
-}
+  } 
 ]
