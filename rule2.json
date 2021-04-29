@@ -99,23 +99,23 @@
     }
   },
   {
-  "id": "btsow2",
-  "name": " BTSOW2",
-  "url": "https://btsow.digital",
-  "icon": "https://btsow.digital/favicon.ico",
-  "paths": {
-    "preset": "/search/{k}",
-    "hot": "/search/tokyo hot n"
-  },
-  "xpath": {
-    "group": "//div[@class='data-list']",
-    "magnet": "./div[3]/a[1]/@href",
-    "name": "./div[3]/a[1]",
-    "size": "./div[31]/div[1]",
-    "date": "./div[31]/div[2]",
-    "hot": "./div[4]/a[1]/div[1]"
+    "id": "btsow2",
+    "name": " BTSOW2",
+    "url": "https://btsow.digital",
+    "icon": "https://btsow.digital/favicon.ico",
+    "paths": {
+      "preset": "/search/{k}",
+      "hot": "/search/tokyo hot n"
+    },
+    "xpath": {
+      "group": "//div[@class='data-list']",
+      "magnet": "./div[3]/a[1]/@href",
+      "name": "./div[3]/a[1]",
+      "size": "./div[31]/div[1]",
+      "date": "./div[31]/div[2]",
+      "hot": "./div[4]/a[1]/div[1]"
+    }
   }
-  }，
   {
     "id": "btdet",
     "name": "BT蚂蚁",
