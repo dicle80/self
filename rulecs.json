@@ -45,8 +45,7 @@
     "proxy": true,
     "url": "https://idope.se",
     "paths": {
-      "preset": "/torrent-list/{k}/?p={p}",
-      "size": "/torrent-list/{k}/?p={p}&o=-2"
+      "preset": "/torrent-list/{k}",
     },
     "xpath": {
       "group": "//div[@class=\"resultdiv\"]",
