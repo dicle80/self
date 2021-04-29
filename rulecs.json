@@ -45,16 +45,17 @@
     "proxy": true,
     "url": "https://idope.se",
     "paths": {
-      "preset": "/torrent-list/{k}",
+      "preset": "/torrent-list/{k}/?p={p}",
+      "size": "/torrent-list/{k}/?p={p}&o=-2"
     },
     "xpath": {
-      "group": "//div[@class=\"resultdiv\"]",
+      "group": "//div[@class=\"div2child\"]",
       "magnet": "./div[1]/a/@href",
-      "name": "./div[1]/a",
+      "name": "./div[2]/div[1]/comment()/a",
       "size": "./div[2]/div[3]/div[2]",
       "date": "./div[2]/div[2]/div[2]",
       "detail": {
-        "files": "./div[2]/div[1]/a/div"
+        "files": "./div[2]/div[5]/div[2]/a/div"
       }
     }
   } 
