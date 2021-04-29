@@ -40,13 +40,12 @@
     }
   },
   {
-    "id": "idope2",
-    "name": "idope2",
+    "id": "idope3",
+    "name": "idope3",
     "proxy": true,
     "url": "https://idope.se",
     "paths": {
-      "preset": "/torrent-list/{k}/{p}",
-      "size": "/torrent-list/{k}/?p={p}&o=-2"
+      "preset": "/torrent-list/{k}/"
     },
     "xpath": {
       "group": "//div[@class=\"div2child\"]",
