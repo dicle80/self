@@ -46,7 +46,6 @@
     "url": "https://idope.se",
     "paths": {
       "preset": "/torrent-list/{k}/?p={p}",
-      "size": "/torrent-list/{k}/?p={p}&o=-2"
     },
     "xpath": {
       "group": "//div[@class=\"resultdiv\"]",
