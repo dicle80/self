@@ -12,7 +12,7 @@
     "hot": "/info-{p}{k}"
   },
   "xpath": {
-    "group": "//div[@class='inerTop']",
+    "group": "//*[@id=\"wrapp\"]/div[2]/div/div/div[2]/div/div[2]/table[1]",
     "magnet": "./div[2]/div[1]/div[2]/table[15]/tbody[1]/tr[2]/td[4]/a[1]/@href",
     "name": "./div[2]/div[1]/div[2]/table[2]/tbody[1]/tr[2]/td[4]/a[1]",
     "size": "./div[2]/div[1]/div[2]/table[15]/tbody[1]/tr[2]/td[2]/strong[1]",
