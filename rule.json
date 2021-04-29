@@ -39,13 +39,14 @@
       "date": "./div[2]/span[3]"
     }
   },
- {
-    "id": "idope1",
-    "name": "idope1",
+  {
+    "id": "idope",
+    "name": "idope",
     "proxy": true,
     "url": "https://idope.se",
     "paths": {
       "preset": "/torrent-list/{k}/?p={p}",
+      "size": "/torrent-list/{k}/?p={p}&o=-2"
     },
     "xpath": {
       "group": "//div[@class=\"resultdiv\"]",
@@ -54,7 +55,7 @@
       "size": "./div[2]/div[3]/div[2]",
       "date": "./div[2]/div[2]/div[2]",
       "detail": {
-        "files": "//div[@class=\"resultdivtopname\"]"
+        "files": "//div[@class=\"filetag\"]"
       }
     }
   }
