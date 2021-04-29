@@ -8,6 +8,7 @@
   "paths": {
     "preset": "/list/{k}/{p}",
     "size": "/list_length/{k}/{p}",
+    "hot": "/list_click/{k}/{p}"
   },
   "xpath": {
     "group": "//table[@class='table table-bordered table-striped']/tbody",
