@@ -25,7 +25,7 @@
   {
     "id": "zhongzisou",
     "name": "种子搜",
-    "proxy": true,
+    "proxy": false,
     "url": "https://m.zhongziso16.xyz",
     "paths": {
       "time": "/list/{k}/{p}",
