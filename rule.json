@@ -4,7 +4,7 @@
   "name": "种子楼",
   "proxy": true,
   "url": "https://www.zhongzilou.com",
-  "https://www.zhongzilou.com/favicon.ico"
+  "icon": "https://www.zhongzilou.com/favicon.ico",
   "paths": {
     "preset": "/list/{k}/{p}",
     "size": "/list_length/{k}/{p}",
