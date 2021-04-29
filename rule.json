@@ -10,14 +10,17 @@
     "size": "/list_length/{k}/{p}",
     "hot": "/list_click/{k}/{p}"
   },
-  "xpath": {
-    "group": "//table[@class='table table-bordered table-striped']/tbody",
-    "magnet": "./tr[2]/td[4]/a[1]/@href",
-    "name": "./tr[1]/td[1]/div[1]/h4[1]/a[1]",
-    "size": "./tr[2]/td[2]/strong[1]",
-    "date": "./tr[2]/td[1]/strong[1]",
-    "hot": "./tr[2]/td[3]/strong[1]"
-  }
+    "xpath": {
+      "group": "//table[@class='table table-bordered table-striped']",
+      "magnet": "./tbody/tr[1]/td/div/h4/a/@href",
+      "name": "./tbody/tr[1]/td/div/h4/a",
+      "size": "./tbody/tr/td[2]/strong",
+      "hot": "./tbody/tr[2]/td[3]/strong",
+      "date": "./tbody/tr/td[1]/strong",
+      "detail": {
+        "files": "//*[@id=\"wrapp\"]/div[2]/div/div/div[3]/div[1]/div[2]/div[2]/select/option"
+      }
+    }
   },
   {
     "id": "zhongzisou",
