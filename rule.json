@@ -1,8 +1,29 @@
 [
+  
+  {
+  "id": "zhongzilou",
+  "name": "种子楼",
+  "proxy": true,
+  "url": "https://www.zhongzilou.com",
+  "icon": "https://www.zhongzilou.com/favicon.ico",
+  "paths": {
+    "preset": "/list/{k}/{p}",
+    "size": "/list_length/{k}/{p}",
+    "hot": "/list_click/{k}/{p}"
+  },
+  "xpath": {
+    "group": "//div[@class='inerTop']",
+    "magnet": "./div[2]/div[1]/div[2]/table[15]/tbody[1]/tr[2]/td[4]/a[1]/@href",
+    "name": "./div[2]/div[1]/div[2]/table[2]/tbody[1]/tr[2]/td[4]/a[1]",
+    "size": "./div[2]/div[1]/div[2]/table[15]/tbody[1]/tr[2]/td[2]/strong[1]",
+    "date": "./div[2]/div[1]/div[2]/table[15]/tbody[1]/tr[2]/td[1]/strong[1]",
+    "hot": "./ul[2]/li[6]/a[1]"
+  }
+  },
   {
     "id": "zhongzisou",
     "name": "种子搜",
-    "proxy": false,
+    "proxy": true,
     "url": "https://m.zhongziso16.xyz",
     "paths": {
       "time": "/list/{k}/{p}",
