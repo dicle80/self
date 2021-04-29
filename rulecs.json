@@ -55,7 +55,7 @@
       "size": "./div[2]/div[3]/div[2]",
       "date": "./div[2]/div[2]/div[2]",
       "detail": {
-        "files": "//div[@class=\"resultdivtopname\"]"
+        "files": "./div[2]/div[1]/a/div"
       }
     }
   } 
