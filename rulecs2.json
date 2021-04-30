@@ -26,13 +26,13 @@
       //*[@id="wrapp"]/div[2]/div/div/div[2]/div/div[2]/table[1]/tbody/tr[2]/td[1]/strong
       //*[@id="wrapp"]/div[2]/div/div/div[2]/div/div[2]/table[1]/tbody/tr[2]/td[4]/a
       //*[@id="wrapp"]/div[2]/div/div/div[2]/div/div[2]/table[1]/tbody/tr[2]/td[5]/a
-    },
       "detail": {
         "files": "//*[@id=\"wrapp\"]/div[2]/div/div/div[3]/div[1]/div[2]/div[2]/select/option"
                     //*[@id="wrapp"]/div[2]/div/div/div[2]/div/div[2]/table[1]/tbody/tr[1]/td/div/h4/a/span[2]
                     //*[@id="wrapp"]/div[2]/div/div/div[3]/div[1]
                     //*[@id="wrapp"]/div[2]/div/div/div[3]/div[1]/h1/text()
-   }               
+      }
+    }       
   },
   {
     "id": "btgg",
