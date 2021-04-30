@@ -50,15 +50,10 @@
     },
     "xpath": {
       "group": "//div[@class=\"resultdiv\"]",
-      //*[@id="div2child"]/div[1]
       "magnet": "./div[1]/a/@href",
-      //*[@id="div2child"]/div[1]/div[1]/a
-      "name": ".//div[1]/a/div/a",
-      //*[@id="div2child"]/div[1]/div[1]/a/div
+      "name": "./div[1]/a/div/a",
       "size": "./div[2]/div[3]/div[2]/a",
-      //*[@id="div2child"]/div[1]/div[2]/div[3]/div[2]
       "date": "./div[2]/div[2]/div[2]/a",
-      //*[@id="div2child"]/div[1]/div[2]/div[2]/div[2]
     }
   } 
 ]
