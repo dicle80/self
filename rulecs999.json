@@ -14,9 +14,9 @@
       "group": "//table[@class='table table-bordered table-striped']",
       "magnet": "./tbody/tr[1]/td/div/h4/a/@href",
       "name": "./tbody/tr[1]/td/div/h4/a",
-      "size": "./tbody/tr/td[2]/strong",
+      "size": "./tbody/tr[1]/td[2]/strong",
       "hot": "./tbody/tr[2]/td[3]/strong",
-      "date": "./tbody/tr/td[1]/strong",
+      "date": "./tbody/tr[1]/td[1]/strong",
       "detail": {
         "files": "//*[@id=\"wrapp\"]/div[2]/div/div/div[3]/div[1]/div[2]/div[2]/select/option"
       }
@@ -49,11 +49,14 @@
       "size": "/torrent-list/{k}/?p={p}&o=-2"
     },
     "xpath": {
-      "group": "//div[@class=\"resultdiv\"]",
+      "group": "//div[@class=\"div2child\"]",
       "magnet": "./div[1]/a/@href",
-      "name": "./div[1]/a/div/a",
-      "size": "./div[2]/div[3]/div[2]/a",
-      "date": "./div[2]/div[2]/div[2]/a",
+      "name": "./div[2]/div[1]/comment()/a",
+      "size": "./div[2]/div[3]/div[2]",
+      "date": "./div[2]/div[2]/div[2]",
+      "detail": {
+        "files": "./div[2]/div[5]/div[2]/a/div"
+      }
     }
   } 
 ]
