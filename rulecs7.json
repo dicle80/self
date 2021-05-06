@@ -66,7 +66,7 @@
   "url": "https://bt4g.org",
   "icon": "https://bt4g.org/static/logo.png",
   "paths": {
-    "preset": "/search/{k}",
+    "preset": "/search/{k}/{p}",
     "time": "/search/{k}/{p}",
     "size": "/search/{k}/bysize/{p}",
     "hot": "/week"
