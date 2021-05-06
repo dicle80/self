@@ -72,12 +72,12 @@
     "hot": "/week"
   },
   "xpath": {
-    "group": "//div[@class='col s12']",
-    "magnet": "./div[2]/h5[1]/a[1]/@href",
-    "name": "./div[2]/h5[1]/a[1]",
-    "size": "./div[16]/span[4]/b[1]",
-    "date": "./div[16]/span[2]/b[1]",
-    "hot": "./div[16]/span[6]/b[1]"
+    "group": "/html/body/main/div/div[3]/div/div[2]",
+    "magnet": "./h5/a/@href",
+    "name": "./h5/a",
+    "size": "./span[4]/b",
+    "date": "./span[2]/b",
+    "hot": "./span[6]/b"
     }
   }
 ]
