@@ -66,10 +66,9 @@
   "url": "https://bt4g.org",
   "icon": "https://bt4g.org/static/logo.png",
   "paths": {
-    "preset": "/search?q={k}&p={p}",
     "time": "/search/{k}/{p}",
     "size": "/search/{k}/bysize/{p}",
-    "hot": "/week"
+    "hot": "/search/{k}/byrequests/{p}"
   },
   "xpath": {
     "group": "//div[@class='col s12']/div",
@@ -77,7 +76,7 @@
     "name": "./h5[1]/a[1]",
     "size": "./span[4]/b[1]",
     "date": "./span[2]/b[1]",
-    "hot": "./span[6]/b[1]"
+    
     }
   }
 ]
