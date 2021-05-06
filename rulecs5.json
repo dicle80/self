@@ -62,6 +62,7 @@
   {
   "id": "bt4g",
   "name": "BT4G",
+  "proxy": true,
   "url": "https://bt4g.org",
   "icon": "https://bt4g.org/favicon.ico",
   "paths": {
