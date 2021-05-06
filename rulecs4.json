@@ -59,5 +59,25 @@
       "hot": "./div[2]/span[2]",
       "date": "./div[2]/div[2]/div[2]/a",
     }
-  } 
+  },
+  {
+  "id": "bt4g",
+  "name": "BT4G",
+  "url": "https://bt4g.org",
+  "icon": "https://bt4g.org/favicon.ico",
+  "paths": {
+    "preset": "/search/{k}",
+    "time": "/search/{k}/{p}",
+    "size": "/search/{k}/bysize/{p}",
+    "hot": "/week"
+  },
+  "xpath": {
+    "group": "//div[@class='col s12']",
+    "magnet": "./div[2]/h5[1]/a[1]/@href",
+    "name": "./div[2]/h5[1]/a[1]",
+    "size": "./div[16]/span[4]/b[1]",
+    "date": "./div[16]/span[2]/b[1]",
+    "hot": "./div[16]/span[6]/b[1]"
+    }
+  }
 ]
