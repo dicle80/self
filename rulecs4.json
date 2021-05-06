@@ -14,11 +14,14 @@
       "group": "//table[@class='table table-bordered table-striped']",
       "magnet": "./tbody/tr[1]/td/div/h4/a/@href",
       "name": "./tbody/tr[1]/td/div/h4/a",
+      //*[@id=" tbody/tr[1]/td/div/h4/a/span[1]
       "size": "./tbody/tr[1]/td[2]/strong",
       "hot": "./tbody/tr[2]/td[3]/strong",
       "date": "./tbody/tr[1]/td[1]/strong",
       "detail": {
         "files": "//*[@id=\"wrapp\"]/div[2]/div/div/div[3]/div[1]/div[2]/div[2]/select/option"
+                    //*[@id="wrapp"]/div[2]/div/div/div[3]/div[2]    }
+                    //*[@id="wrapp"]/div[2]/div/div/div[3]/div[1]/h1/small
       }
     }
   },
@@ -53,6 +56,7 @@
       "magnet": "./div[1]/a/@href",
       "name": "./div[1]/a/div/a",
       "size": "./div[2]/div[3]/div[2]/a",
+      "hot": "./div[2]/span[2]",
       "date": "./div[2]/div[2]/div[2]/a",
     }
   } 
