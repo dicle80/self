@@ -60,32 +60,11 @@
     }
   },
   {
-  "id": "bt4g-old",
-  "name": "BT4G",
-  "proxy": true,
-  "url": "https://bt4g.org",
-  "icon": "https://bt4g.org/favicon.ico",
-  "paths": {
-    "preset": "/search/{k}",
-    "time": "/search/{k}/{p}",
-    "size": "/search/{k}/bysize/{p}",
-    "hot": "/week"
-  },
-  "xpath": {
-    "group": "/html/body/main/div/div[3]/div/div[2]",
-    "magnet": "./h5/a/@href",
-    "name": "./h5/a",
-    "size": "./span[4]/b",
-    "date": "./span[2]/b",
-    "hot": "./span[6]/b"
-    }
-  },
-  {
   "id": "bt4g",
   "name": "BT4G",
   "proxy": true,
   "url": "https://bt4g.org",
-  "icon": "https://bt4g.org/favicon.ico",
+  "icon": "https://bt4g.org/static/logo.png",
   "paths": {
     "preset": "/search/{k}",
     "time": "/search/{k}/{p}",
