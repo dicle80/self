@@ -14,9 +14,9 @@
       "group": "//table[@class='table table-bordered table-striped']",
       "magnet": "./tbody/tr[1]/td/div/h4/a/@href",
       "name": "./tbody/tr[1]/td/div/h4/a",
-      "size": "./tbody/tr[1]/td[2]/strong",
+      "size": "./tbody/tr[2]/td[2]/strong",
       "hot": "./tbody/tr[2]/td[3]/strong",
-      "date": "./tbody/tr[1]/td[1]/strong",
+      "date": "./tbody/tr[2]/td[1]/strong",
       "detail": {
         "files": "//*[@id=\"wrapp\"]/div[2]/div/div/div[3]/div[1]/div[2]/div[2]/select/option"
       }
@@ -75,8 +75,7 @@
     "magnet": "./h5[1]/a[1]/@href",
     "name": "./h5[1]/a[1]",
     "size": "./span[4]/b[1]",
-    "date": "./span[2]/b[1]",
-    
+    "date": "./span[2]/b[1]"
     }
   }
 ]
