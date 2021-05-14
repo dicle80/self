@@ -96,5 +96,27 @@
         "files": "//div[@class=\"detail data-list\"]/div/text()"
       }
     }
+  },
+  {
+    "id": "btdet",
+    "name": "BT蚂蚁",
+    "proxy": false,
+    "url": "https://btmayi.iproxy.gq",
+    "paths": {
+      "time": "/search/{k}-first-asc-{p}",
+      "size": "/search/{k}-size-desc-{p}",
+      "hot": "/search/{k}-hot-desc-{p}"
+    },
+    "xpath": {
+      "group": "//div[@id='wall']/div[@class='search-item']",
+      "magnet": "./div[@class='item-title']/a/@href",
+      "name": "./div[@class='item-title']/a",
+      "size": "./div[@class='item-bar']/span[4]/b",
+      "date": "./div[@class='item-bar']/span[1]/b",
+      "hot": "./div[@class='item-bar']/span[2]/b",
+      "detail": {
+        "files": "//*[@id=\"wall\"]/ol/li"
+      }
+    }
   }
 ]
