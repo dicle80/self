@@ -1,0 +1,142 @@
+[
+  {
+  "id": "zhongzilou",
+  "name": "种子楼",
+  "proxy": true,
+  "url": "https://www.zhongzilou.com",
+  "icon": "https://www.zhongzilou.com/favicon.ico",
+  "paths": {
+    "preset": "/list/{k}/{p}",
+    "size": "/list_length/{k}/{p}",
+    "hot": "/list_click/{k}/{p}"
+  },
+    "xpath": {
+      "group": "//table[@class='table table-bordered table-striped']",
+      "magnet": "./tbody/tr[1]/td/div/h4/a/@href",
+      "name": "./tbody/tr[1]/td/div/h4/a",
+      "size": "./tbody/tr[2]/td[2]/strong",
+      "hot": "./tbody/tr[2]/td[3]/strong",
+      "date": "./tbody/tr[2]/td[1]/strong",
+      "detail": {
+        "files": "//*[@id=\"wrapp\"]/div[2]/div/div/div[3]/div[1]/div[2]/div[2]/select/option"
+      }
+    }
+  },
+  {
+    "id": "btgg",
+    "name": "BTGG",
+    "proxy": false,
+    "url": "https://www.btgg.cc",
+    "paths": {
+      "preset": "/search?q={k}&p={p}"
+    },
+    "xpath": {
+      "group": "//div[@class=\"item\"]",
+      "magnet": "./div[2]/a/@href",
+      "name": "./div[1]/a",
+      "size": "./div[2]/span[1]",
+      "hot": "./div[2]/span[2]",
+      "date": "./div[2]/span[3]"
+    }
+  },
+  {
+    "id": "idope3",
+    "name": "idope3",
+    "proxy": true,
+    "url": "https://idope.se",
+    "paths": {
+      "preset": "/torrent-list/{k}/{p}",
+      "size": "/torrent-list/{k}/?p={p}&o=-2"
+    },
+    "xpath": {
+      "group": "//div[@class=\"div2child\"]",
+      "magnet": "./div[1]/a/@href",
+      "name": "./div[2]/div[1]/comment()/a",
+      "size": "./div[2]/div[3]/div[2]",
+      "date": "./div[2]/div[2]/div[2]",
+      "detail": {
+        "files": "./div[2]/div[5]/div[2]/a/div"
+      }
+    }
+  },
+  {
+  "id": "bt4g",
+  "name": "BT4G",
+  "proxy": true,
+  "url": "https://bt4g.org",
+  "icon": "https://bt4g.org/static/logo.png",
+  "paths": {
+    "time": "/search/{k}/{p}",
+    "size": "/search/{k}/bysize/{p}",
+    "hot": "/search/{k}/byrequests/{p}"
+  },
+  "xpath": {
+    "group": "//div[@class='col s12']/div",
+    "magnet": "./h5[1]/a[1]/@href",
+    "name": "./h5[1]/a[1]",
+    "size": "./span[4]/b[1]",
+    "date": "./s pan[2]/b[1]"
+    }
+  },
+  {
+    "id": "btsow",
+    "name": "BTSOW",
+    "proxy": false,
+    "url": "https://btsow.cyou",
+    "paths": {
+      "preset": "/search/{k}/page/{p}"
+    },
+    "xpath": {
+      "group": "//div[@class='row']",
+      "magnet": "./a/@href",
+      "name": "./a/div[1]",
+      "size": "./div[1]",
+      "date": "./div[2]",
+      "detail": {
+        "files": "//div[@class=\"detail data-list\"]/div/text()"
+      }
+    }
+  },
+  {
+    "id": "mm6600",
+    "name": "91BT ",
+    "proxy": true,
+    "url": "https://bt.mm6600.com",
+    "icon": "https://bt.mm6600.com/favicon.ico",
+    "paths": {
+      "preset": "/search-{k}-0-0-{p}.html",
+      "size": "/search-{k}-{p}-1-1.html",
+      "time": "/hash/e{p}e6a8b4517de3336fca52376919d28199f616c0.html"
+    },
+    "xpath": {
+      "group": "//div[@class='ssbox']",
+      "magnet": "./div[3]/span[1]/a[1]/@href",
+      "name": "./div[1]/h3[1]/a[1]",
+      "size": "./div[3]/span[3]/b[1]",
+      "date": "./div[3]/span[4]/b[1]",
+      "hot": "./div[3]/span[5]/b[1]"
+    }
+  },
+  {
+    "id": "btdet",
+    "name": "BT蚂蚁",
+    "proxy": false,
+    "url": "https://btmayi.iproxy.gq",
+    "paths": {
+      "time": "/search/{k}-first-asc-{p}",
+      "size": "/search/{k}-size-desc-{p}",
+      "hot": "/search/{k}-hot-desc-{p}"
+    },
+    "xpath": {
+      "group": "//div[@id='wall']/div[@class='search-item']",
+      "magnet": "./div[@class='item-title']/a/@href",
+      "name": "./div[@class='item-title']/a",
+      "size": "./div[@class='item-bar']/span[4]/b",
+      "date": "./div[@class='item-bar']/span[1]/b",
+      "hot": "./div[@class='item-bar']/span[2]/b",
+      "detail": {
+        "files": "//*[@id=\"wall\"]/ol/li"
+      }
+    }
+  }
+]
