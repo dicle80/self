@@ -1,0 +1,81 @@
+[
+  {
+  "id": "zhongzilou",
+  "name": "种子楼",
+  "proxy": true,
+  "url": "https://www.zhongzilou.com",
+  "icon": "https://www.zhongzilou.com/favicon.ico",
+  "paths": {
+    "preset": "/list/{k}/{p}",
+    "size": "/list_length/{k}/{p}",
+    "hot": "/list_click/{k}/{p}"
+  },
+    "xpath": {
+      "group": "//table[@class='table table-bordered table-striped']",
+      "magnet": "./tbody/tr[1]/td/div/h4/a/@href",
+      "name": "./tbody/tr[1]/td/div/h4/a",
+      "size": "./tbody/tr[2]/td[2]/strong",
+      "hot": "./tbody/tr[2]/td[3]/strong",
+      "date": "./tbody/tr[2]/td[1]/strong",
+      "detail": {
+        "files": "//*[@id=\"wrapp\"]/div[2]/div/div/div[3]/div[1]/div[2]/div[2]/select/option"
+      }
+    }
+  },
+  {
+    "id": "btgg",
+    "name": "BTGG",
+    "proxy": false,
+    "url": "https://www.btgg.cc",
+    "paths": {
+      "preset": "/search?q={k}&p={p}"
+    },
+    "xpath": {
+      "group": "//div[@class=\"item\"]",
+      "magnet": "./div[2]/a/@href",
+      "name": "./div[1]/a",
+      "size": "./div[2]/span[1]",
+      "hot": "./div[2]/span[2]",
+      "date": "./div[2]/span[3]"
+    }
+  },
+  {
+    "id": "idope3",
+    "name": "idope3",
+    "proxy": true,
+    "url": "https://idope.se",
+    "paths": {
+      "preset": "/torrent-list/{k}/{p}",
+      "size": "/torrent-list/{k}/?p={p}&o=-2"
+    },
+    "xpath": {
+      "group": "//div[@class=\"div2child\"]",
+      "magnet": "./div[1]/a/@href",
+      "name": "./div[2]/div[1]/comment()/a",
+      "size": "./div[2]/div[3]/div[2]",
+      "date": "./div[2]/div[2]/div[2]",
+      "detail": {
+        "files": "./div[2]/div[5]/div[2]/a/div"
+      }
+    }
+  },
+  {
+  "id": "bt4g",
+  "name": "BT4G",
+  "proxy": true,
+  "url": "https://bt4g.org",
+  "icon": "https://bt4g.org/static/logo.png",
+  "paths": {
+    "time": "/search/{k}/{p}",
+    "size": "/search/{k}/bysize/{p}",
+    "hot": "/search/{k}/byrequests/{p}"
+  },
+  "xpath": {
+    "group": "//div[@class='col s12']/div",
+    "magnet": "./h5[1]/a[1]/@href",
+    "name": "./h5[1]/a[1]",
+    "size": "./span[4]/b[1]",
+    "date": "./span[2]/b[1]"
+    }
+  }
+]
